@@ -4,11 +4,13 @@ namespace ConfigFile
 {
     public class Config
     {
+      
+        
         public static string botToken = "5428664214:AAHzHQAdvgTLWVCfbivB8e6c2Tb_H5evhjE";
         public static long adminChannel = -1001643852844;
         public static string walletSymbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";
         public static string verifComment = "Verification for TONDOT";
-        public static string auctionRulesText = "Сюда правила аукциона";
+        public static string auctionRulesText = "<b>Ознакомьтесь с правилами аукциона -</b> <a href=\"https://telegra.ph/Pravila-aukciona-07-03\">читать</a>";
         public static string startText = "Сюда текст при команде /start, когда юзер уже добавлен в бд и указал кошелек";
 
         public static DateTime EndDate()

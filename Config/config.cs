@@ -4,8 +4,8 @@ namespace ConfigFile
 {
     public class Config
     {
-        public static string botToken = "5501096677:AAH4vM87tMYfIQj0r8EkryGbnycNpZGsESI";
-        public static long adminChannel = -1001693620959;
+        public static string botToken = "5428664214:AAHzHQAdvgTLWVCfbivB8e6c2Tb_H5evhjE";
+        public static long adminChannel = -1001643852844;
         public static string walletSymbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";
         public static string verifComment = "Verification for TONDOT";
         public static string auctionRulesText = "Сюда правила аукциона";

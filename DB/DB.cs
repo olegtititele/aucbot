@@ -335,7 +335,7 @@ namespace PostgreSQL
             string auctionStartNftPrice = "none";
             string auctionRedemptionPrice = "none";
             string auctionMinStep = "none";
-            string auctionValidUntil = "none";
+            DateTime auctionValidUntil = DateTime.Now.AddDays(2);
             string auctionCheckIfNftSent = "none";
             
             using var con = new NpgsqlConnection(user_db_connection);

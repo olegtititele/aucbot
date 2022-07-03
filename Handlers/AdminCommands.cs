@@ -183,10 +183,16 @@ namespace CommandsSpace
                     UserDB.UpdateState(chatId, "MainMenu");
                     await botClient.SendTextMessageAsync(
                         chatId: chatId,
-                        text: Config.startText,
+                        text: $"<b>💎Канал TON DOODLES PRESALE: @TonDoodlesNFT</b>",
                         parseMode: ParseMode.Html,
                         replyMarkup: Keyboards.MenuKb
                     );
+//                     await botClient.SendTextMessageAsync(
+//                         chatId: chatId,
+//                         text: Config.startText,
+//                         parseMode: ParseMode.Html,
+//                         replyMarkup: Keyboards.MenuKb
+//                     );
                 }
                 return;
             }

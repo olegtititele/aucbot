@@ -74,8 +74,7 @@ namespace MessageHandler
                         await botClient.SendTextMessageAsync(
                             chatId: chatId,
                             text: $"<b>💎Канал TON DOODLES PRESALE: @TonDoodlesNFT</b>",
-                            parseMode: ParseMode.Html,
-                            replyMarkup: Keyboards.InfoKb
+                            parseMode: ParseMode.Html
                         );
                         return;
                     case "🙊 Профиль":
